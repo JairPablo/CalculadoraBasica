@@ -1,0 +1,9 @@
+.fondo{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./fondo-matematica.jpg);
+    background-size: cover;
+    color: aliceblue;
+}
+
+h1{
+    font-size: 400%;
+}
