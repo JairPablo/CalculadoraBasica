@@ -3,8 +3,8 @@ let n1 = parseInt(prompt("Ingrese un numero"));
 let n2 = parseInt(prompt("Ingrese otro numero"));
 let resultado;
 
-
-switch(operacion){
+if (n1===Number && n2===numbrer){
+switch(operacion){ 
     case "+": resultado=n1+n2;
     alert("El resultado de tu operacion es: " + resultado);
         break;
@@ -21,6 +21,9 @@ switch(operacion){
         break;
     default: alert ("Ingrese una operacion admitida");
 }
-
+}
+else{
+    alert("Ingresa valores NUMERICOS")
+}
 
 
