@@ -11,8 +11,10 @@ switch(operacion){
     case "-": resultado=n1-n2;
     alert("El resultado de tu operacion es: " + resultado);
         break;
-    case "/": resultado=n1/n2;
-    alert("El resultado de tu operacion es: " + resultado);
+    case "/":
+        if(n2!=0){resultado=n1/n2;
+    alert("El resultado de tu operacion es: " + resultado);}
+        else {alert ("No se puede dividir por Cero")}
         break;
     case "*": resultado=n1*n2;
     alert("El resultado de tu operacion es: " + resultado);
